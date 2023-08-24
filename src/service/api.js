@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URI = 'http://localhost:8000'; // backend url 
+const API_URI = 'https://backend-4ss4.onrender.com'; // backend url 
 
 export const uploadFile = async (data) => {
     try {
