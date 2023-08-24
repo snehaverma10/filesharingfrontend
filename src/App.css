@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background: #000;
+  height: 100vh;
+  overflow: hidden;
+  display: flex; /* children element ko ek line mai lata hai*/
+}
+
+.img {
+  width: 35%;
+
+
+}
+
+.wrapper {
+  width: 750px;
+  height: 400px;
+  margin: auto;
+  background: #fff;
+  display: flex;
+  flex-direction: column; /* horizontally centre mai lene k liye*/
+  align-items: center; /* is a property of display flex*/
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: 600;
+  color: #0071cb;
+  margin: 40px 0;
+}
+
+input {
+  margin: 20px 0;
+  width: 400px;
+  padding: 8px;
+}
+
+input:focus-visible {
+  outline: none;
+}
+
+button {
+  width: 150px;
+  height: 40px;
+  border-radius: 7px;
+  background-color:   #0071cb;
+  border: 2px solid #010f08;
+  color: #fff;
+  font-size: 25px;
+  margin: 30px 0;
+}
